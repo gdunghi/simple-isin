@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Securities Symbol</th>
+      <th>Company Code</th>
+      <th>ISIN Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let stock of stocks">
+      <td>{{stock.securitiesSymbol}}</td>
+      <td>{{stock.companyCode}}</td>
+      <td>{{stock.isinCode}}</td>
+    </tr>
+  </tbody>
+</table>
